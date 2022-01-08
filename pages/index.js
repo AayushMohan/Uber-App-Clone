@@ -8,14 +8,24 @@ mapboxgl.accessToken =
   "pk.eyJ1IjoiYWF5dXNobW9oYW4iLCJhIjoiY2t2cGVpaWlqMXNmcTJ4b3VlN2tsaGNscSJ9.3D_bhqYitsTH9fIDyg17Hw";
 
 export default function Home() {
-  const map = new mapboxgl.Map({
-    container: "YOUR_CONTAINER_ELEMENT_ID",
-    style: "mapbox://styles/mapbox/streets-v11",
+  useEffect(() => {
+    if (map.current) return; // initialize map only once
+    const map = new mapboxgl.Map({
+      container: "map",
+      style: "mapbox://styles/mapbox/streets-v11",
+      center: [-99.29011, 39.39172],
+      zoom: 3,
+    });
   });
+
+  // const map = new mapboxgl.Map({
+  //   container: "map",
+  //   style: "mapbox://styles/mapbox/streets-v11",
+  // });
 
   return (
     <Wrapper>
-      <Map>Map</Map>
+      <Map id="map"></Map>
       <ActionItems>Start</ActionItems>
     </Wrapper>
   );
