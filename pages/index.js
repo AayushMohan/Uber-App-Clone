@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import tw from "tailwind-styled-components";
+import mapboxgl from "!mapbox-gl";
+
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiYWF5dXNobW9oYW4iLCJhIjoiY2t2cGVpaWlqMXNmcTJ4b3VlN2tsaGNscSJ9.3D_bhqYitsTH9fIDyg17Hw";
 
 export default function Home() {
   return (
