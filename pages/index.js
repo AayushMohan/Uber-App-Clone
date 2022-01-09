@@ -43,11 +43,13 @@ const UberLogo = tw.img`
 `;
 
 const Profile = tw.div`
-  flex
+  flex items-center
 `;
 
-const Name = tw.div``;
+const Name = tw.div`
+  mr-4 w-20 text-sm
+`;
 
 const UserImage = tw.img`
-  h-20
+  h-12 w-12 rounded-full border-gray-200 p-px
 `;
