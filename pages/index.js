@@ -13,7 +13,10 @@ export default function Home() {
 
         <Header>
           <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg" />
-          <Profile></Profile>
+          <Profile>
+            <Name>Aayush Mohan</Name>
+            <UserImage src="" />
+          </Profile>
         </Header>
 
         {/* ActionButton */}
@@ -39,3 +42,7 @@ const UberLogo = tw.img`
 `;
 
 const Profile = tw.div``;
+
+const Name = tw.div``;
+
+const UserImage = tw.div``;
