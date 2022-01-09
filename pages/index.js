@@ -68,9 +68,9 @@ const ActionButtons = tw.div`
 `;
 
 const ActionButton = tw.div`
-  flex bg-gray-200 flex-1 m-1 h-32 items-center
+  flex bg-gray-200 flex-1 m-1 h-32 items-center flex-col justify-center rounded-lg
 `;
 
 const ActionButtonImage = tw.img`
-  h3/5
+  h-3/5
 `;
