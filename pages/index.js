@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import tw from "tailwind-styled-components";
 import Map from "./components/Map";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,10 +22,12 @@ export default function Home() {
 
         {/* ActionButton */}
         <ActionButtons>
-          <ActionButton>
-            <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png" />
-            Ride
-          </ActionButton>
+          <Link href="/search">
+            <ActionButton>
+              <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png" />
+              Ride
+            </ActionButton>
+          </Link>
           <ActionButton>
             <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png" />
             Wheels
@@ -83,5 +86,5 @@ const ActionButtonImage = tw.img`
 `;
 
 const InputButton = tw.div`
-  h-20 bg-gray-200 text-2xl p-4 flex items-center mt-8
+  h-20 bg-gray-200 text-2xl p-4 flex items-center mt-8    
 `;
