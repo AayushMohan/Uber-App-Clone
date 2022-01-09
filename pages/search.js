@@ -7,9 +7,9 @@ const search = () => {
     <Wrapper>
       {/* Button Container */}
       <ButtonContainer>
-        {/* <Link href="/index"> */}
-        <BackButton src="https://img.icons8.com/ios-filled/50/000000/left.png" />
-        {/* </Link> */}
+        <Link href="/index">
+          <BackButton src="https://img.icons8.com/ios-filled/50/000000/left.png" />
+        </Link>
       </ButtonContainer>
 
       {/* Input Container */}
