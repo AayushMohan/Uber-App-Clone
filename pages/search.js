@@ -24,6 +24,9 @@ const search = () => {
       </InputContainer>
 
       {/* Saved Places */}
+      <SavedPlaces>
+        <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" />
+      </SavedPlaces>
       {/* Confirm Location */}
     </Wrapper>
   );
@@ -73,4 +76,10 @@ const Input = tw.input`
 
 const PlusIcon = tw.img`
  w-10 h-10 bg-gray-200 rounded-full ml-3
+`;
+
+const SavedPlaces = tw.div``;
+
+const StarIcon = tw.img`
+  bg-gray-400 w-10 h-10 p-2 rounded-full
 `;
