@@ -78,8 +78,10 @@ const PlusIcon = tw.img`
  w-10 h-10 bg-gray-200 rounded-full ml-3
 `;
 
-const SavedPlaces = tw.div``;
+const SavedPlaces = tw.div`
+ flex items-center bg-white px-4 py-2
+`;
 
 const StarIcon = tw.img`
-  bg-gray-400 w-10 h-10 p-2 rounded-full
+  bg-gray-400 w-10 h-10 p-2 rounded-full mr-2
 `;
