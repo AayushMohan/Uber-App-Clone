@@ -8,7 +8,14 @@ export default function Home() {
   return (
     <Wrapper>
       <Map />
-      <ActionItems>Start</ActionItems>
+      <ActionItems>
+        {/* Header */}
+
+        <Header></Header>
+
+        {/* ActionButton */}
+        {/* InputButton */}
+      </ActionItems>
     </Wrapper>
   );
 }
@@ -19,4 +26,7 @@ const Wrapper = tw.div`
 
 const ActionItems = tw.div`
   flex-1
+`;
+
+const Header = tw.div`
 `;
