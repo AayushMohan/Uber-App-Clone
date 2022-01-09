@@ -20,6 +20,8 @@ export default function Home() {
         </Header>
 
         {/* ActionButton */}
+        <ActionButton></ActionButton>
+
         {/* InputButton */}
       </ActionItems>
     </Wrapper>
@@ -31,7 +33,7 @@ const Wrapper = tw.div`
 `;
 
 const ActionItems = tw.div`
-  flex-1
+  flex-1 p-4
 `;
 
 const Header = tw.div`
@@ -53,3 +55,5 @@ const Name = tw.div`
 const UserImage = tw.img`
   h-12 w-12 rounded-full border-gray-200 p-px
 `;
+
+const ActionButton = tw.div``;
