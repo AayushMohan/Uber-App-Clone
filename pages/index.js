@@ -35,14 +35,19 @@ const ActionItems = tw.div`
 `;
 
 const Header = tw.div`
+  flex justify-between items-center
 `;
 
 const UberLogo = tw.img`
   h-28
 `;
 
-const Profile = tw.div``;
+const Profile = tw.div`
+  flex
+`;
 
 const Name = tw.div``;
 
-const UserImage = tw.div``;
+const UserImage = tw.img`
+  h-20
+`;
