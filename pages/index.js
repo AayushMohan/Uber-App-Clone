@@ -60,6 +60,10 @@ const UserImage = tw.img`
   h-12 w-12 rounded-full border-gray-200 p-px
 `;
 
-const ActionButtons = tw.div``;
+const ActionButtons = tw.div`
+  flex 
+`;
 
-const ActionButton = tw.div``;
+const ActionButton = tw.div`
+  bg-gray-200 flex-1
+`;
