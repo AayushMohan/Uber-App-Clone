@@ -48,14 +48,20 @@ const InputContainer = tw.div`
 `;
 
 const FormToIcons = tw.div`
- w-10 flex flex-col mr-2
+ w-10 flex flex-col mr-2 items-center
 `;
 
-const Circle = tw.img``;
+const Circle = tw.img`
+  h-2.5
+`;
 
-const Line = tw.img``;
+const Line = tw.img`
+  h-10
+`;
 
-const Square = tw.img``;
+const Square = tw.img`
+  h-3
+`;
 
 const InputBoxes = tw.div`
  flex flex-col flex-1
