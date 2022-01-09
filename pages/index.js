@@ -15,7 +15,7 @@ export default function Home() {
           <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg" />
           <Profile>
             <Name>Aayush Mohan</Name>
-            <UserImage src="" />
+            <UserImage src="https://lh3.googleusercontent.com/a-/AOh14Ggfc-cIwPVhA5dWpHPoCZvQLFuj5z9XINGyFRaU=s576-p-rw-no" />
           </Profile>
         </Header>
 
