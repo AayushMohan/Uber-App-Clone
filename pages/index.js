@@ -11,7 +11,10 @@ export default function Home() {
       <ActionItems>
         {/* Header */}
 
-        <Header></Header>
+        <Header>
+          <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg" />
+          <Profile></Profile>
+        </Header>
 
         {/* ActionButton */}
         {/* InputButton */}
@@ -21,7 +24,7 @@ export default function Home() {
 }
 
 const Wrapper = tw.div`
-  flex flex-col bg-red-300 h-screen
+  flex flex-col h-screen
 `;
 
 const ActionItems = tw.div`
@@ -30,3 +33,9 @@ const ActionItems = tw.div`
 
 const Header = tw.div`
 `;
+
+const UberLogo = tw.img`
+  h-28
+`;
+
+const Profile = tw.div``;
