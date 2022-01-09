@@ -21,7 +21,10 @@ export default function Home() {
 
         {/* ActionButton */}
         <ActionButtons>
-          <ActionButton>Ride</ActionButton>
+          <ActionButton>
+            <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png" />
+            Ride
+          </ActionButton>
           <ActionButton>Wheels</ActionButton>
           <ActionButton>Reserve</ActionButton>
         </ActionButtons>
@@ -65,5 +68,9 @@ const ActionButtons = tw.div`
 `;
 
 const ActionButton = tw.div`
-  bg-gray-200 flex-1
+  flex bg-gray-200 flex-1 m-1 h-32 items-center
+`;
+
+const ActionButtonImage = tw.img`
+  h3/5
 `;
