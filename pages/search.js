@@ -47,7 +47,7 @@ const ButtonContainer = tw.div`
 `;
 
 const BackButton = tw.img`
- h-12
+ h-12 cursor-pointer
 `;
 
 const InputContainer = tw.div`
