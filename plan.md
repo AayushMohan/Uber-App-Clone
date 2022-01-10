@@ -2,3 +2,4 @@
 2. Create the confirm Location Button ✅
 3. Create the confirm page ✅
 4. Plot a random point on a map ✅
+5. Get coordinates from a location ✅
