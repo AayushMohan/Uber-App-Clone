@@ -3,6 +3,15 @@ import tw from "tailwind-styled-components";
 import Map from "./components/Map";
 
 const confirm = () => {
+  const getCoordinates = () => {
+    const location = "Santa Monica";
+    fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${location}.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      });
+  };
+
   return (
     <Wrapper>
       <Map />
