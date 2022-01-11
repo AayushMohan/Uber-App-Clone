@@ -5,3 +5,4 @@
 5. Get coordinates from a location ✅
 6. Add the pickup and dropoff as markers on the map ✅
 7. Add a auto zoom to be able to zoom into the markers ✅
+8. Pass in location data into confirm page ✅

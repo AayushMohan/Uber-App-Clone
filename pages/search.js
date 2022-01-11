@@ -31,7 +31,17 @@ const search = () => {
         <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" />
       </SavedPlaces>
       {/* Confirm Location */}
-      <ConfirmButtonContainer>Confirm Locations</ConfirmButtonContainer>
+      <Link
+        href={{
+          pathname: "/confirm",
+          query: {
+            pickup: "Santa Monica",
+            dropoff: "Los Angeles",
+          },
+        }}
+      >
+        <ConfirmButtonContainer>Confirm Locations</ConfirmButtonContainer>
+      </Link>
     </Wrapper>
   );
 };
