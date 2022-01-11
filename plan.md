@@ -3,3 +3,4 @@
 3. Create the confirm page ✅
 4. Plot a random point on a map ✅
 5. Get coordinates from a location ✅
+6. Add the pickup and dropoff as markers on the map ✅
