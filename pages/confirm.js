@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 import { useEffect, useState } from "react";
 import tw from "tailwind-styled-components";
 import Map from "./components/Map";
