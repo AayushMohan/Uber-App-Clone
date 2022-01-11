@@ -1,8 +1,8 @@
-import React from "react";
+import { useEffect } from "react";
 import tw from "tailwind-styled-components";
 import Map from "./components/Map";
 
-const confirm = () => {
+const Confirm = () => {
   const getCoordinates = () => {
     const location = "Santa Monica";
     fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${location}.json`)
@@ -12,6 +12,10 @@ const confirm = () => {
       });
   };
 
+  useEffect(() => {
+    getCoordinates();
+  });
+
   return (
     <Wrapper>
       <Map />
@@ -20,7 +24,7 @@ const confirm = () => {
   );
 };
 
-export default confirm;
+export default Confirm;
 
 const Wrapper = tw.div`
  flex flex-col h-screen
