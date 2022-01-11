@@ -6,7 +6,7 @@ import tw from "tailwind-styled-components";
 import Map from "./components/Map";
 import Link from "next/link";
 import { auth } from "../firebase";
-import { onAuthStateChanged, signOut } from "firebase/auth";
+import { onAuthStateChanged, signOut } from "@firebase/auth";
 import { useRouter } from "next/router";
 
 export default function Home() {
