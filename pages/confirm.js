@@ -70,7 +70,7 @@ const Wrapper = tw.div`
 `;
 
 const RideContainer = tw.div`
-  flex flex-1 flex-col
+  flex flex-1 flex-col h-1/2
 `;
 
 const ConfirmButtonContainer = tw.div`
