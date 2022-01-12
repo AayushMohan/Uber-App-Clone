@@ -10,7 +10,7 @@ const firebaseConfig = {
   authDomain: process.env.uber_app_authDomain,
   projectId: process.env.uber_app_projectId,
   storageBucket: process.env.uber_app_storageBucket,
-  messagingSenderId: process.env.uber_app_messagingSenderId,
+  messagingSenderId: "725001836581",
   appId: process.env.uber_app_appId,
   measurementId: "G-QSF6DHCEJB",
 };
