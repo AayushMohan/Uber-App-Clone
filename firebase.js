@@ -8,11 +8,11 @@ import { GoogleAuthProvider, getAuth } from "firebase/auth";
 const firebaseConfig = {
   apiKey: process.env.uber_app_apikey,
   authDomain: process.env.uber_app_authDomain,
-  projectId: process.env.uber_app_projectId,
+  projectId: "uber-app-clone-2ff97",
   storageBucket: process.env.uber_app_storageBucket,
   messagingSenderId: "725001836581",
   appId: process.env.uber_app_appId,
-  measurementId: "G-QSF6DHCEJB",
+  measurementId: process.env.uber_app_measurementId,
 };
 
 // Initialize Firebase
