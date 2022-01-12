@@ -6,12 +6,12 @@ import { GoogleAuthProvider, getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB4nwLFIM7g0fDdd_zfsyUeFViL1P5TYwA",
-  authDomain: "uber-app-clone-2ff97.firebaseapp.com",
-  projectId: "uber-app-clone-2ff97",
-  storageBucket: "uber-app-clone-2ff97.appspot.com",
-  messagingSenderId: "725001836581",
-  appId: "1:725001836581:web:e9c0fdcb988bc2909007cc",
+  apiKey: process.env.uber_app_apikey,
+  authDomain: process.env.uber_app_authDomain,
+  projectId: process.env.uber_app_projectId,
+  storageBucket: process.env.uber_app_storageBucket,
+  messagingSenderId: process.env.uber_app_messagingSenderId,
+  appId: process.env.uber_app_appId,
   measurementId: "G-QSF6DHCEJB",
 };
 
